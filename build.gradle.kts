@@ -12,8 +12,12 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+
 
 }
+
+
 
 tasks.test {
     useJUnitPlatform()
